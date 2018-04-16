@@ -11,7 +11,7 @@ private Mealbuilder meal_builder;
 		return this.meal_builder.get_meal();
 	}
 	
-	public void make_meal(String meal,String item,String drink,String toy) {
+	public void make_meal() {
 		this.meal_builder.build_main_meal();
 		this.meal_builder.build_side_item();
 		this.meal_builder.build_drink();
